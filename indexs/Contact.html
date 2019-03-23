@@ -41,6 +41,7 @@
 					</div>
 				</header>
 				<form action="#">
+						<fieldset>
 					<br>
 					<table style="padding: 15px;">
 						<tr>
@@ -65,7 +66,6 @@
 							</td>
 							<td>
 								<input type="text" name="name">
-				</form>
 				</td>
 				</tr>
 				<tr>
@@ -73,10 +73,14 @@
 						<h3>Gender:</h3>
 					</td>
 					<td>
-						<form action="#">
-								<input type="radio" name="gender" value="male"> Male<br>
-								<input type="radio" name="gender" value="female"> Female<br>
-						</form>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+							<label class="form-check-label" for="exampleRadios1">
+								Male
+							</label>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+							<label class="form-check-label" for="exampleRadios2">
+								Female
+							</label>
 					</td>
 				</tr>
 				<tr>
@@ -84,7 +88,6 @@
 						<h3>Phone:</h3>
 					</td>
 					<td>
-						<form action="#">
 							<input type="text" name="phone">
 					</td>
 				</tr>
@@ -103,6 +106,7 @@
 					<td><input type="submit" value="submit"></td>
 				</tr>
 				</table>
+			</fieldset>
 				</form><br>
 			</article>
 
